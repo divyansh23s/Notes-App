@@ -13,7 +13,6 @@ export default function Home({notes}) {
 
             <button className='mt-4 bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition'>+ Create New Note</button>
         </div>
-
         {/* stats */}
         <div className='grid grid-cols-3 gap-6'>
             <Statcard title="Total Notes" value={notes.length}/>
