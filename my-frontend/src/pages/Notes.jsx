@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import { Search,PlusCircle } from "lucide-react";
-
 export default function Notes() {
     return (
         <div className="px-10 py-8">
@@ -55,3 +54,4 @@ export default function Notes() {
     );
 
 }
+
