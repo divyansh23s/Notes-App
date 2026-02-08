@@ -37,6 +37,13 @@ export default function Home({notes}) {
                 <button className='bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition'>View all Notes</button>
             </div>
         </div>
+
+      <div className='bg-emerald-500 text-white p-10 rounded-xl text-center'>
+            <div className='mt-6 flex justify-center gap-4'>
+                <button className='bg-white text-emerald-600 px-6 py-3 rounded-lg hover:bg-emerald-100 transition'>Create Note</button>
+                <button className='bg-emerald-600 text-white px-6 py-3 rounded-lg hover:bg-emerald-700 transition'>View all Notes</button>
+            </div>
+        </div>
     </div>
   );
 }
