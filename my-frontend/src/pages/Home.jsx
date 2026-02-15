@@ -1,10 +1,9 @@
 import Statcard from '../components/Statcard'
 import FeatureCard from '../components/FeatureCard'
 import { Edit, Folder, Search, Save} from "lucide-react";
-
 export default function Home({notes}) {
   return (
-    <div className='px-8 py-10 space-y-10'>
+    <div className='px-10 py-10 space-y-10'>
 
         {/* welcome */}
         <div className='text-center'>
